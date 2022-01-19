@@ -31,7 +31,7 @@ const ProductItem = ({ product, slideIndex }) => {
           <CartTitle>{product.title}</CartTitle>
         </CartDesContainer>
         <DetailsContainer>
-          <Link to={`/products/${product.id}`}>
+          <Link to={`/linear-shopping/products/${product.id}`}>
             <DetailsButton>View Details</DetailsButton>
           </Link>
         </DetailsContainer>
