@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/linear-shopping/static/css/main.02611bb1.chunk.css",
+    "main.js": "/linear-shopping/static/js/main.467d7bdb.chunk.js",
+    "main.js.map": "/linear-shopping/static/js/main.467d7bdb.chunk.js.map",
+    "runtime-main.js": "/linear-shopping/static/js/runtime-main.c4776d00.js",
+    "runtime-main.js.map": "/linear-shopping/static/js/runtime-main.c4776d00.js.map",
+    "static/js/2.496f7486.chunk.js": "/linear-shopping/static/js/2.496f7486.chunk.js",
+    "static/js/2.496f7486.chunk.js.map": "/linear-shopping/static/js/2.496f7486.chunk.js.map",
+    "index.html": "/linear-shopping/index.html",
+    "static/css/main.02611bb1.chunk.css.map": "/linear-shopping/static/css/main.02611bb1.chunk.css.map",
+    "static/js/2.496f7486.chunk.js.LICENSE.txt": "/linear-shopping/static/js/2.496f7486.chunk.js.LICENSE.txt",
+    "static/media/3.d4866f03.png": "/linear-shopping/static/media/3.d4866f03.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4776d00.js",
+    "static/js/2.496f7486.chunk.js",
+    "static/css/main.02611bb1.chunk.css",
+    "static/js/main.467d7bdb.chunk.js"
+  ]
+}
