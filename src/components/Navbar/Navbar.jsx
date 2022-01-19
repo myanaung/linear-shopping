@@ -31,13 +31,16 @@ const Navbar = ({ handleMenuClicked }) => {
           <LeftText>Spend less , smile more.</LeftText>
         </Left>
         <Right>
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/linear-shopping" style={{ textDecoration: "none" }}>
             <Products>Home</Products>
           </Link>
-          <Link to="/products" style={{ textDecoration: "none" }}>
+          <Link
+            to="/linear-shopping/products"
+            style={{ textDecoration: "none" }}
+          >
             <Products>Products</Products>
           </Link>
-          <Link to="/shopping-cart">
+          <Link to="/linear-shopping/shopping-cart">
             <Icon>
               <ShoppingCartOutlined fontSize="large" />
               <Badge length={cartItems.length}>{cartItems.length}</Badge>
@@ -47,7 +50,7 @@ const Navbar = ({ handleMenuClicked }) => {
 
         {/* Mobile Responsive */}
         <MenuContainer>
-          <Link to="/shopping-cart">
+          <Link to="/linear-shopping/shopping-cart">
             <MenuIcon>
               <ShoppingCartOutlined fontSize="medium" />
               <MenuBadge length={cartItems.length}>

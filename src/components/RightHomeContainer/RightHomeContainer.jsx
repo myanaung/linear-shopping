@@ -12,7 +12,7 @@ const RightHomeContainer = () => {
     <Container>
       <Title>We make daily life easy.</Title>
       <TextOne>Free Delivery With Good Quality Products</TextOne>
-      <Link to={`/products`}>
+      <Link to={`/linear-shopping/products`}>
         <OrderButton>Order Now</OrderButton>
       </Link>
     </Container>
