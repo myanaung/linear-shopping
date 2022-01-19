@@ -34,9 +34,9 @@ const Main = () => {
         <MainContainer>
           <Navbar handleMenuClicked={handleMenuClicked} />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/linear-shopping/" element={<Home />} />
             <Route
-              path="/products"
+              path="/linear-shopping/products"
               element={
                 <ProductItems
                   products={products}
@@ -45,11 +45,11 @@ const Main = () => {
               }
             />
             <Route
-              path="/products/:id"
+              path="/linear-shopping/products/:id"
               element={<Detail products={products} />}
             />
             <Route
-              path="/shopping-cart"
+              path="/linear-shopping/shopping-cart"
               element={<ShoppingCart />}
               handleMenuClicked={handleMenuClicked}
             />
