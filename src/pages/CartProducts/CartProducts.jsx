@@ -11,7 +11,6 @@ import {
   Quantity,
   Price,
   DeleteContainer,
-  DetailsButton,
 } from "./CartProducts-styles";
 
 const CartProducts = ({ cartItem }) => {
