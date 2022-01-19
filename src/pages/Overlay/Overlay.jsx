@@ -21,21 +21,21 @@ const Overlay = ({ handleMenuClicked, menuClicked }) => {
         <Title>Linear Shopping</Title>
         <LinksContainer menuClicked={menuClicked}>
           <Link
-            to="/"
+            to="/linear-shopping"
             onClick={handleMenuClicked}
             style={{ textDecoration: "none" }}
           >
             <HomeLink>Home</HomeLink>
           </Link>
           <Link
-            to="/products"
+            to="/linear-shopping/products"
             onClick={handleMenuClicked}
             style={{ textDecoration: "none" }}
           >
             <ProductsLink>Products</ProductsLink>
           </Link>
           <Link
-            to="/shopping-cart"
+            to="/linear-shopping/shopping-cart"
             onClick={handleMenuClicked}
             style={{ textDecoration: "none" }}
           >
