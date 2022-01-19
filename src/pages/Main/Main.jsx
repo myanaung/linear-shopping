@@ -34,7 +34,7 @@ const Main = () => {
         <MainContainer>
           <Navbar handleMenuClicked={handleMenuClicked} />
           <Routes>
-            <Route path="/linear-shopping/" element={<Home />} />
+            <Route path="/linear-shopping" element={<Home />} />
             <Route
               path="/linear-shopping/products"
               element={
